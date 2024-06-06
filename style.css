@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 60;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: blueviolet;
+}
+.pageTitle{
+  background-image: linear-gradient(rgb(233, 94, 52), rgb(245, 207, 80), rgb(249, 207, 17), rgb(130, 231, 30), rgb(52, 233, 124), rgb(32, 90, 215));
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.headtitle{
+  color: rgb(22, 109, 129);
+  margin: 0 750px;
+  font-size: 70px;
+  letter-spacing: 3px;
+  padding-left: 30px;
+}
+
+.title{
+  color: rgb(19, 239, 195);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+
+}
+
+.products{
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: px;
+  padding: 0px;
+  margin: 0 50px;
+}
+
+.product {
+  border: 1px solid rgb(204, 204, 204);
+  transform: translateY(-30);
+  box-shadow: rgb(103, 22, 22);
+  box-shadow: 0px 0px 10px rgb(73, 168, 62);
+  border-radius: 2px;
+  width: 200px;
+  height: 340px;
+  justify-content: center;
+  padding: 0px;
+  margin: 40px;
+}
+
+.description{
+  height: 130px;
+  text-align:initial;
+  margin: 0px 10px;
+}
+
+.product:hover {
+  transform: translateY(-30);
+  box-shadow: rgb(103, 22, 22);
+} 
+
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: scale-down;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.price{
+  margin-left: 10px;
+  text-align: left;
+  color: rgb(131, 242, 12);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.h1{
+  text-align: center;
+}
